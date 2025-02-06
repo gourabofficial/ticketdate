@@ -56,6 +56,10 @@ label {
   margin-bottom: 10px;
 }
 
+
+
+
+
 input[type="text"] {
   width: 100%;
   padding: 12px;
@@ -75,6 +79,7 @@ input[type="text"] {
   border: 1px solid #212121 !important;
   border-radius: 8px !important;
   box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1) !important;
+  
 }
 
 .flatpickr-months {
@@ -143,14 +148,30 @@ button:hover {
   color: #00d9ff;
 }
 
+.highlight {
+  background-color: #ffeb3b; 
+  color: #000;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  
+}
 
-@media (max-width: 600px) {
+
+
+
+
+ @media (max-width: 600px) { 
   h1 {
       font-size: 2.2rem;
   }
 
   .intro-text {
       font-size: 1rem;
+      
   }
 
   .max-date-text {
@@ -159,6 +180,7 @@ button:hover {
 
   input[type="text"] {
       font-size: 1rem;
+      
   }
 
   button {
@@ -175,4 +197,4 @@ button:hover {
       font-size: 1rem;
       
   }
-}
+}  
