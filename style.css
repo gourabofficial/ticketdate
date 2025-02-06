@@ -1,0 +1,178 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #ddd;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.container {
+  background-color: #111;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+  max-width: 700px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-family: helvetica;
+  margin-bottom: 20px;
+  color: #bb0b0b;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+
+}
+
+.intro-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  color: #bbb;
+
+}
+
+.max-date-text {
+  font-size: 1.2rem;
+
+  margin-bottom: 20px;
+  color: #00d9ff;
+  font-weight: bold;
+}
+
+label {
+  font-size: 1.2rem;
+
+  color: #0ff;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #00d9ff;
+  border-radius: 8px;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.flatpickr-calendar {
+  background-color: #fff !important;
+  border: 1px solid #212121 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1) !important;
+}
+
+.flatpickr-months {
+  background-color: #fff !important;
+  border-radius: 8px 8px 0 0 !important;
+}
+
+.flatpickr-month {
+  color: #212121 !important;
+  font-weight: bold !important;
+}
+
+.flatpickr-weekdays {
+  background-color: #333 !important;
+}
+
+.flatpickr-weekday {
+  color: #fff !important;
+}
+
+.flatpickr-day {
+  color: #212121 !important;
+  border-radius: 8px !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.flatpickr-day:hover {
+  background-color: rgb(83, 115, 228) !important;
+  color: #000 !important;
+}
+
+.flatpickr-day.today {
+  background-color: #00d9ff !important;
+  color: #000 !important;
+  font-weight: bold !important;
+}
+
+.flatpickr-day.selected {
+  background-color: #007bff !important;
+  color: #fff !important;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result-text {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #00d9ff;
+}
+
+
+@media (max-width: 600px) {
+  h1 {
+      font-size: 2.2rem;
+  }
+
+  .intro-text {
+      font-size: 1rem;
+  }
+
+  .max-date-text {
+      font-size: 1rem;
+  }
+
+  input[type="text"] {
+      font-size: 1rem;
+  }
+
+  button {
+      font-size: 1rem;
+  }
+
+  .result-text {
+      font-size: 1.2rem;
+  }
+
+  .flatpickr-calendar {
+      width: 300px;
+
+      font-size: 1rem;
+      
+  }
+}
